@@ -11,9 +11,5 @@ name servers - NS records
     IN      NS      ns1.kaizenvpn.com.
     IN      NS      ns2.kaizenvpn.com.
 ; name servers - A records
-ns1.kaizenvpn.com.          IN      A       45.159.210.138
-ns2.kaizenvpn.com.          IN      A       45.159.210.138
-
-; 10.128.0.0/16 - A records
-host1.kaizenvpn.com.        IN      A      45.159.210.138
-host2.kaizenvpn.com.        IN      A      45.159.210.138
+ns1.kaizenvpn.com.          IN      A       207.246.68.253
+ns2.kaizenvpn.com.          IN      A       207.246.68.253

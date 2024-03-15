@@ -1,8 +1,8 @@
 
 ; Panel %version%
-; Zone file for ns1.bulksmsbd.online
+; Zone file for ns1.kaizenvpn.com
 $TTL 14400
-ns1.bulksmsbd.online.      86400      IN      SOA      ns1.bulksmsbd.online.
-ns1.bulksmsbd.online. 86400 IN NS ns1.bulksmsbd.online.
-ns1.bulksmsbd.online. 86400 IN NS ns2.bulksmsbd.online.
-ns1.bulksmsbd.online. 14400 IN A 192.9.182.74
+ns1.kaizenvpn.com.      86400      IN      SOA      ns1.kaizenvpn.com.
+ns1.kaizenvpn.com. 86400 IN NS ns1.kaizenvpn.com.
+ns1.kaizenvpn.com. 86400 IN NS ns2.kaizenvpn.com.
+ns1.kaizenvpn.com. 14400 IN A 207.246.68.253

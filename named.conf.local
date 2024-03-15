@@ -1,11 +1,11 @@
 zone "ns.kaizenvpn.com" {
     type primary;
     file "/etc/bind/zones/ns.kaizenvpn.com.db"; # zone file path
-    allow-transfer { 45.159.210.138; };           # ns2 private IP address - secondary
+    allow-transfer { 207.246.68.253; };           # ns2 private IP address - secondary
 };
 
 zone "9.0.192.in-addr.arpa" {
     type primary;
     file "/etc/bind/zones/kaizenvpn.com.db"; # Reverse lookup zone file path
-    allow-transfer { 45.159.210.138; };  # ns2 private IP address - secondary
+    allow-transfer { 207.246.68.253; };  # ns2 private IP address - secondary
 };
