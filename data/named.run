@@ -1,0 +1,143 @@
+managed-keys-zone: loaded serial 0
+zone 0.in-addr.arpa/IN: loaded serial 0
+zone 1.0.0.127.in-addr.arpa/IN: loaded serial 0
+zone localhost/IN: loaded serial 0
+zone 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa/IN: loaded serial 0
+zone localhost.localdomain/IN: loaded serial 0
+all zones loaded
+running
+managed-keys-zone: Key 20326 for zone . acceptance timer complete: key now trusted
+resolver priming query complete
+received control channel command 'stop'
+shutting down: flushing changes
+stopping command channel on 127.0.0.1#953
+stopping command channel on ::1#953
+no longer listening on 127.0.0.1#53
+no longer listening on 45.159.210.138#53
+no longer listening on ::1#53
+exiting
+managed-keys-zone: journal file is out of date: removing journal file
+managed-keys-zone: loaded serial 2
+zone 0.in-addr.arpa/IN: loaded serial 0
+zone 1.0.0.127.in-addr.arpa/IN: loaded serial 0
+zone 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa/IN: loaded serial 0
+zone localhost.localdomain/IN: loaded serial 0
+zone localhost/IN: loaded serial 0
+all zones loaded
+running
+managed-keys-zone: Key 20326 for zone . acceptance timer complete: key now trusted
+resolver priming query complete
+client @0x7fb0300a9060 162.142.125.132#10500 (ip.parrotdns.com): query (cache) 'ip.parrotdns.com/A/IN' denied
+client @0x7fb0300a9060 162.142.125.221#58690 (ip.parrotdns.com): query (cache) 'ip.parrotdns.com/A/IN' denied
+client @0x7fb0300a9060 146.88.240.4#39118 (a7eb4440.asertdnsresearch.com): query (cache) 'a7eb4440.asertdnsresearch.com/A/IN' denied
+client @0x7fb0300a9060 146.88.240.13#60173 (www.wikipedia.org): query (cache) 'www.wikipedia.org/A/IN' denied
+client @0x7fb0300a9060 167.248.133.129#32290 (ip.parrotdns.com): query (cache) 'ip.parrotdns.com/A/IN' denied
+client @0x7fb0300a9060 167.248.133.62#45894 (ip.parrotdns.com): query (cache) 'ip.parrotdns.com/A/IN' denied
+client @0x7fb0300b7690 106.75.103.62#40458 (google.com): query (cache) 'google.com/A/IN' denied
+client @0x7fb0300a9060 185.94.111.1#37884 (com): query (cache) 'com/ANY/IN' denied
+client @0x7fb032e75970 103.203.59.3#57482 (www.qq.com): query (cache) 'www.qq.com/A/IN' denied
+client @0x7fb030056ad0 128.14.136.78#45006 (testip.internet-census.org): query (cache) 'testip.internet-census.org/A/IN' denied
+client @0x7fb032eb4b90 128.14.136.78#48180 (testip.internet-census.org): query (cache) 'testip.internet-census.org/A/IN' denied
+client @0x7fb032e75970 128.14.209.234#54804 (testip.internet-census.org): query (cache) 'testip.internet-census.org/A/IN' denied
+client @0x7fb0300b7690 128.14.209.234#58858 (testip.internet-census.org): query (cache) 'testip.internet-census.org/A/IN' denied
+received control channel command 'reload'
+loading configuration from '/etc/named.conf'
+reading built-in trust anchors from file '/etc/named.root.key'
+initializing GeoIP Country (IPv4) (type 1) DB
+GEO-106FREE 20180327 Build 1 Copyright (c) 2018 MaxMind Inc All Rights Reserved
+initializing GeoIP Country (IPv6) (type 12) DB
+GEO-106FREE 20180605 Build 1 Copyright (c) 2018 MaxMind Inc All Rights Reserved
+GeoIP City (IPv4) (type 2) DB not available
+GeoIP City (IPv4) (type 6) DB not available
+GeoIP City (IPv6) (type 30) DB not available
+GeoIP City (IPv6) (type 31) DB not available
+GeoIP Region (type 3) DB not available
+GeoIP Region (type 7) DB not available
+GeoIP ISP (type 4) DB not available
+GeoIP Org (type 5) DB not available
+GeoIP AS (type 9) DB not available
+GeoIP Domain (type 11) DB not available
+GeoIP NetSpeed (type 10) DB not available
+using default UDP/IPv4 port range: [32768, 60999]
+using default UDP/IPv6 port range: [32768, 60999]
+sizing zone task pool based on 7 zones
+none:104: 'max-cache-size 90%' - setting to 1610MB (out of 1789MB)
+none:104: 'max-cache-size 90%' - setting to 1610MB (out of 1789MB)
+configuring command channel from '/etc/rndc.key'
+configuring command channel from '/etc/rndc.key'
+reloading configuration succeeded
+reloading zones succeeded
+zone access.kaizenvpn.com/IN: loaded serial 2022062899
+all zones loaded
+running
+zone access.kaizenvpn.com/IN: sending notifies (serial 2022062899)
+managed-keys-zone: Key 20326 for zone . acceptance timer complete: key now trusted
+received control channel command 'stop'
+shutting down: flushing changes
+stopping command channel on 127.0.0.1#953
+stopping command channel on ::1#953
+no longer listening on 127.0.0.1#53
+no longer listening on 45.159.210.138#53
+no longer listening on ::1#53
+exiting
+managed-keys-zone: journal file is out of date: removing journal file
+managed-keys-zone: loaded serial 4
+zone 0.in-addr.arpa/IN: loaded serial 0
+zone localhost/IN: loaded serial 0
+zone 1.0.0.127.in-addr.arpa/IN: loaded serial 0
+zone 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa/IN: loaded serial 0
+zone access.kaizenvpn.com/IN: loaded serial 2022062900
+zone ns2.kaizenvpn.com/IN: loaded serial 2013071600
+zone localhost.localdomain/IN: loaded serial 0
+zone ns1.kaizenvpn.com/IN: loaded serial 2013071600
+all zones loaded
+running
+zone ns2.kaizenvpn.com/IN: sending notifies (serial 2013071600)
+zone ns1.kaizenvpn.com/IN: sending notifies (serial 2013071600)
+zone access.kaizenvpn.com/IN: sending notifies (serial 2022062900)
+managed-keys-zone: Key 20326 for zone . acceptance timer complete: key now trusted
+resolver priming query complete
+received control channel command 'stop'
+shutting down: flushing changes
+stopping command channel on 127.0.0.1#953
+stopping command channel on ::1#953
+no longer listening on 127.0.0.1#53
+no longer listening on 45.159.210.138#53
+no longer listening on ::1#53
+exiting
+managed-keys-zone: loaded serial 5
+zone 0.in-addr.arpa/IN: loaded serial 0
+zone access.kaizenvpn.com/IN: loaded serial 2022062900
+zone 1.0.0.127.in-addr.arpa/IN: loaded serial 0
+zone localhost.localdomain/IN: loaded serial 0
+zone 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa/IN: loaded serial 0
+zone ns1.kaizenvpn.com/IN: loaded serial 2013071600
+zone ns2.kaizenvpn.com/IN: loaded serial 2013071600
+zone localhost/IN: loaded serial 0
+all zones loaded
+running
+zone ns1.kaizenvpn.com/IN: sending notifies (serial 2013071600)
+zone access.kaizenvpn.com/IN: sending notifies (serial 2022062900)
+zone ns2.kaizenvpn.com/IN: sending notifies (serial 2013071600)
+managed-keys-zone: Key 20326 for zone . acceptance timer complete: key now trusted
+resolver priming query complete
+client @0x7f5c540b7690 185.180.143.147#55981 (testip.internet-census.org): query (cache) 'testip.internet-census.org/A/IN' denied
+client @0x7f5c540b7690 185.180.143.147#59458 (testip.internet-census.org): query (cache) 'testip.internet-census.org/A/IN' denied
+client @0x7f5c540a9060 45.61.185.196#13788 (ferc.gov): query (cache) 'ferc.gov/ANY/IN' denied
+client @0x7f5c540a9060 139.177.197.89#59966 (dns-test.research.a10protects.com): query (cache) 'dns-test.research.a10protects.com/TXT/IN' denied
+client @0x7f5c56e7b450 185.180.143.15#41642 (testip.internet-census.org): query (cache) 'testip.internet-census.org/A/IN' denied
+client @0x7f5c540b7690 185.180.143.15#45732 (testip.internet-census.org): query (cache) 'testip.internet-census.org/A/IN' denied
+client @0x7f5c540a9060 181.214.206.161#44696 (aaa.stage.no.offence): query (cache) 'aaa.stage.no.offence/TXT/IN' denied
+client @0x7f5c540a9060 146.88.240.4#48305 (a7eb4440.asertdnsresearch.com): query (cache) 'a7eb4440.asertdnsresearch.com/A/IN' denied
+client @0x7f5c540a9060 146.88.240.13#54430 (www.wikipedia.org): query (cache) 'www.wikipedia.org/A/IN' denied
+client @0x7f5c540a9060 66.150.130.184#60203 (sl): query (cache) 'sl/ANY/IN' denied
+client @0x7f5c540a9060 216.218.206.71#39640 (dnsscan.shadowserver.org): query (cache) 'dnsscan.shadowserver.org/A/IN' denied
+client @0x7f5c56e7b450 185.180.143.73#46154 (testip.internet-census.org): query (cache) 'testip.internet-census.org/A/IN' denied
+client @0x7f5c56e941d0 185.180.143.73#52804 (testip.internet-census.org): query (cache) 'testip.internet-census.org/A/IN' denied
+client @0x7f5c540a9060 106.75.184.237#17492 (clients1.google.com): query (cache) 'clients1.google.com/A/IN' denied
+client @0x7f5c56e941d0 154.89.5.210#54840 (google.com): query (cache) 'google.com/A/IN' denied
+client @0x7f5c540a9060 129.250.206.86#16749 (eea20d09.openresolvertest.net): query (cache) 'eea20d09.openresolvertest.net/A/IN' denied
+client @0x7f5c540a9060 147.139.32.106#12330 (0xa7eb4440-0-0628.youtubo.online): query (cache) '0xa7eb4440-0-0628.youtubo.online/A/IN' denied
+client @0x7f5c540a9060 147.139.32.106#12330 (0xa7eb4440-0-0628.doh-test.online): query (cache) '0xa7eb4440-0-0628.doh-test.online/A/IN' denied
+client @0x7f5c540a9060 184.105.139.112#40449 (dnsscan.shadowserver.org): query (cache) 'dnsscan.shadowserver.org/A/IN' denied
+client @0x7f5c540a9060 89.248.167.132#45275 (tstng.net): query (cache) 'tstng.net/A/IN' denied
