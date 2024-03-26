@@ -9,19 +9,19 @@ $TTL 14400
 				86400 )         ; minimum, seconds
 @	86400	IN	NS		ns1.kaizenvpn.com.
 @	86400	IN	NS		ns2.kaizenvpn.com.
-@ IN A 207.246.68.253
+@ IN A 143.198.69.123
 @ IN MX 0 mail.kaizenvpn.com.
 mail 14400 IN CNAME mail.kaizenvpn.com.
 smtp 14400 IN CNAME mail.kaizenvpn.com.
 pop  14400 IN CNAME mail.kaizenvpn.com.
 pop3 14400 IN CNAME mail.kaizenvpn.com.
 imap 14400 IN CNAME mail.kaizenvpn.com.
-webmail 14400 IN A 207.246.68.253
-cpanel 14400 IN A 207.246.68.253
-cwp 14400 IN A 207.246.68.253
+webmail 14400 IN A 143.198.69.123
+cpanel 14400 IN A 143.198.69.123
+cwp 14400 IN A 143.198.69.123
 www 14400 IN CNAME mail.kaizenvpn.com.
 ftp 14400 IN CNAME mail.kaizenvpn.com.
 _dmarc	14400	IN	TXT	"v=DMARC1; p=none"
-@	14400	IN	TXT	"v=spf1 +a +mx +ip4:207.246.68.253 ~all"
+@	14400	IN	TXT	"v=spf1 +a +mx +ip4:143.198.69.123 ~all"
 mail._domainkey.mail   IN   TXT   "p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyogYM8+AKABkyaNRIGUMsxpNlaFOLlVW0JDkbCMTUI3m0HhJsW9soZYApeMgyWO2zrBYYc7oth012sC0dy9O5Uw5ePHM2gmmt8ZdZi0ikInm3TGCNtjH8ZTPhJJxNJaL+SbvUZNlfpsQ7ZfEwAfO7UzC/nbvchwWKdCP9PhL046o9N8m1tmH+taNaDAaD0z8KCWEhOiwjxPl5M"
           "d+2vSbl8rP1Fo4gKd8Vqi4qfaExFC3NPx9u7Yc5r4X8qvhIbH+sFf7ciQO4exCJHzFdDHNlebsu2UYGUiw/zoquNHP1lIbK3Vib8AztZCOITrhZI0AW+nmycmz8PvKecaJae2byQIDAQAB"

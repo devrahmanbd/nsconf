@@ -1,15 +1,43 @@
-$TTL    604800
-@       IN      SOA     ns1.kaizenvpn.com. info.ns1.kaizenvpn.com. (
-                  3     ; Serial
-             604800     ; Refresh
-              86400     ; Retry
-            2419200     ; Expire
-             604800 )   ; Negative Cache TTL
-;
-;
-name servers - NS records
-    IN      NS      ns1.kaizenvpn.com.
-    IN      NS      ns2.kaizenvpn.com.
-; name servers - A records
-ns1.kaizenvpn.com.          IN      A       207.246.68.253
-ns2.kaizenvpn.com.          IN      A       207.246.68.253
+$TTL 14400
+
+@ 86400 IN SOA ns1.kaizenvpn.com. postmaster.kaizenvpn.com.
+
+@ 86400 IN NS ns1.kaizenvpn.com.
+
+@ 86400 IN NS ns2.kaizenvpn.com.
+
+@ IN A 143.198.69.123
+
+localhost IN A 127.0.0.1
+
+@ IN MX 0 kaizenvpn.com.
+
+smtp 14400 IN CNAME kaizenvpn.com.
+
+pop 14400 IN CNAME kaizenvpn.com.
+
+pop3 14400 IN CNAME kaizenvpn.com.
+
+imap 14400 IN CNAME kaizenvpn.com.
+
+webmail 14400 IN A 143.198.69.123
+
+cpanel 14400 IN A 143.198.69.123
+
+cwp 14400 IN A 143.198.69.123
+
+www 14400 IN CNAME kaizenvpn.com.
+
+ftp 14400 IN CNAME kaizenvpn.com.
+
+_dmarc 14400 IN TXT "v=DMARC1; p=none"
+
+@ 14400 IN TXT "v=spf1 +a +mx +ip4:143.198.69.123 ~all"
+
+default._domainkey 14400 IN TXT "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDTNjydL8JpHy3Z7mZpVEviE5XzbFU/VsSLQTNd/kwS408aqak3z9sqMEVUCYPwvT4ldW5znFm0brlAcBKYrzVqJqPySg/hKuWMBbaGgycoI8dGcm4//qw/D/cV20mB/kyKCeu2D0gHKiaYnv/9zlMt2ODpZK8nFflZ6vpLItZVuQIDAQAB"
+
+MX Record @ IN MX 10 mail
+
+A Record for Mail Server
+
+mail IN A 143.198.69.123

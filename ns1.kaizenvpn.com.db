@@ -5,4 +5,4 @@ $TTL 14400
 ns1.kaizenvpn.com.      86400      IN      SOA      ns1.kaizenvpn.com.
 ns1.kaizenvpn.com. 86400 IN NS ns1.kaizenvpn.com.
 ns1.kaizenvpn.com. 86400 IN NS ns2.kaizenvpn.com.
-ns1.kaizenvpn.com. 14400 IN A 207.246.68.253
+ns1.kaizenvpn.com. 14400 IN A 143.198.69.123

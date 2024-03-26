@@ -1,8 +1,8 @@
 acl "trusted" {
-        207.246.68.253;    # ns
-        207.246.68.253;    # ns
-        207.246.68.253;    # host
-        207.246.68.253;
+        143.198.69.123;    # ns
+        143.198.69.123;    # ns
+        143.198.69.123;    # host
+        143.198.69.123;
 };
 
 options {
@@ -10,7 +10,7 @@ options {
         
         recursion yes;                 # enables recursive queries
         allow-recursion { trusted; };  # allows recursive queries from "trusted" clients
-        listen-on { 207.246.68.253; };   # ns1 private IP address - listen on private network only
+        listen-on { 143.198.69.123; };   # ns1 private IP address - listen on private network only
         allow-transfer { none; };      # disable zone transfers by default
 
         forwarders {
