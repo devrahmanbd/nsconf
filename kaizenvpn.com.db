@@ -1,0 +1,29 @@
+
+; Zone file for kaizenvpn.com
+$TTL 14400
+@    86400        IN      SOA     ns1.kaizenvpn.com. postmaster.kaizenvpn.com. (
+				2024032832 ; serial, todays date+todays
+				3600            ; refresh, seconds
+				7200            ; retry, seconds
+				1209600         ; expire, seconds
+				86400 )         ; minimum, seconds
+@	86400	IN	NS		ns1.kaizenvpn.com.
+@	86400	IN	NS		ns2.kaizenvpn.com.
+@ IN A 143.198.69.123
+localhost.kaizenvpn.com. IN A 127.0.0.1
+@ IN MX 0 kaizenvpn.com.
+mail 14400 IN CNAME kaizenvpn.com.
+smtp 14400 IN CNAME kaizenvpn.com.
+pop  14400 IN CNAME kaizenvpn.com.
+pop3 14400 IN CNAME kaizenvpn.com.
+imap 14400 IN CNAME kaizenvpn.com.
+webmail 14400 IN A 143.198.69.123
+cpanel 14400 IN A 143.198.69.123
+cwp 14400 IN A 143.198.69.123
+www 14400 IN CNAME kaizenvpn.com.
+ftp 14400 IN CNAME kaizenvpn.com.
+_dmarc	14400	IN	TXT	"v=DMARC1; p=none"
+@	14400	IN	TXT	"v=spf1 +a +mx +ip4:143.198.69.123 ~all"
+ns1.kaizenvpn.com.     14400   IN      A       143.198.69.123  ; #ns1
+ns2.kaizenvpn.com.     14400   IN      A       143.198.69.123  ; #ns2
+default._domainkey 14400   IN      TXT     "v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAt6799lWNOe8BIFi6NKke+TfPVjMM2DcWxhiopte0k6PrI09IcLnQ8CwiYVrKChVo06Qpk+SLyzqtT+XpcdLUrycEA1qG4LpofWSRi1viV/gWdP42zqyDc/proMWaOqts5G3YXw4w11BgcbRp/AW5qTiLLiJYMFP/X1cuv+iiRo1MdcS+IOP4GTIY6Evxx3dyIYmLjn96e1fro+FEuS1FUKsasjzpdRnprXDonf+Lj7UV9OpxzNn1wRBfa13bK2LwhThGkzTN9VFMLv6ZdAiWY+PRThZwQVpzd1dAkilagO9XdT7BDFycm+jjrSiTWYaif9dpma00ica4lr0Zy9O8bQIDAQAB"

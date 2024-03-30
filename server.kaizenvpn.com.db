@@ -1,0 +1,27 @@
+
+; Zone file for server.kaizenvpn.com
+$TTL 14400
+@    86400        IN      SOA     ns1.centos-webpanel.com. postmaster.server.kaizenvpn.com. (
+				2024032667 ; serial, todays date+todays
+				3600            ; refresh, seconds
+				7200            ; retry, seconds
+				1209600         ; expire, seconds
+				86400 )         ; minimum, seconds
+@	86400	IN	NS		ns1.centos-webpanel.com.
+@	86400	IN	NS		ns2.centos-webpanel.com.
+@ IN A 143.198.69.123
+localhost.server.kaizenvpn.com. IN A 127.0.0.1
+@ IN MX 0 server.kaizenvpn.com.
+mail 14400 IN CNAME server.kaizenvpn.com.
+smtp 14400 IN CNAME server.kaizenvpn.com.
+pop  14400 IN CNAME server.kaizenvpn.com.
+pop3 14400 IN CNAME server.kaizenvpn.com.
+imap 14400 IN CNAME server.kaizenvpn.com.
+webmail 14400 IN A 143.198.69.123
+cpanel 14400 IN A 143.198.69.123
+cwp 14400 IN A 143.198.69.123
+www 14400 IN CNAME server.kaizenvpn.com.
+ftp 14400 IN CNAME server.kaizenvpn.com.
+_dmarc	14400	IN	TXT	"v=DMARC1; p=none"
+@	14400	IN	TXT	"v=spf1 +a +mx +ip4:143.198.69.123 ~all"
+default._domainkey IN TXT "v=DKIM1; h=sha256; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvbx1tAZnD3uLZlCR6swmUvHDvOQuadfhsbyBMyI5gddXdCyfTOl9b2x0Yi/O5/GcgBU0ZclfjMCIhxq6a7uViug3Dpy8IPo2aYSLuasItNBRDEPeLW3a9ZB1cPM4nHm2lIxszjPdwq1o91Z5C/RQfV3TREHsFQf9K7+042wpg3elgC5OvSGu605+2Mp0kuzB1pUurQBOo3V59bZMdSaC+XX8ntYjZrHQj9ol/Cj7byx3WCpGAh4INWH+I0Gz83mnBFe2ubg9n5coyW1UhTjXt3k/aB9qSi2gTKwr9oPFa8A8wCAHqqVQNzVMdVp23+xi2W0Q5qzx/hEs5zlLtYongQIDAQAB";

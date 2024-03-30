@@ -2,7 +2,13 @@
 ; Panel %version%
 ; Zone file for ns1.kaizenvpn.com
 $TTL 14400
-ns1.kaizenvpn.com.      86400      IN      SOA      ns1.kaizenvpn.com.
+ns1.kaizenvpn.com.      86400      IN      SOA      ns1.kaizenvpn.com.      info.centos-webpanel.com.      (
+      				2013071600 ;serial, todays date+todays
+      				86400 ;refresh, seconds
+      				7200 ;retry, seconds
+      				3600000 ;expire, seconds
+      				86400 ;minimum, seconds
+      )
 ns1.kaizenvpn.com. 86400 IN NS ns1.kaizenvpn.com.
 ns1.kaizenvpn.com. 86400 IN NS ns2.kaizenvpn.com.
 ns1.kaizenvpn.com. 14400 IN A 143.198.69.123
