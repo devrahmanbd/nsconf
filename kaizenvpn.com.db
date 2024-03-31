@@ -26,4 +26,4 @@ _dmarc	14400	IN	TXT	"v=DMARC1; p=none"
 @	14400	IN	TXT	"v=spf1 +a +mx +ip4:143.198.69.123 ~all"
 ns1.kaizenvpn.com.     14400   IN      A       143.198.69.123  ; #ns1
 ns2.kaizenvpn.com.     14400   IN      A       143.198.69.123  ; #ns2
-default._domainkey 14400   IN      TXT     "v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAt6799lWNOe8BIFi6NKke+TfPVjMM2DcWxhiopte0k6PrI09IcLnQ8CwiYVrKChVo06Qpk+SLyzqtT+XpcdLUrycEA1qG4LpofWSRi1viV/gWdP42zqyDc/proMWaOqts5G3YXw4w11BgcbRp/AW5qTiLLiJYMFP/X1cuv+iiRo1MdcS+IOP4GTIY6Evxx3dyIYmLjn96e1fro+FEuS1FUKsasjzpdRnprXDonf+Lj7UV9OpxzNn1wRBfa13bK2LwhThGkzTN9VFMLv6ZdAiWY+PRThZwQVpzd1dAkilagO9XdT7BDFycm+jjrSiTWYaif9dpma00ica4lr0Zy9O8bQIDAQAB"
+default._domainkey IN TXT "v=DKIM1; h=sha256; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmZx50NDyKySi4284PwN2fyXUb+hl0wTLagRrx6BmloHg2fBMAJLXgjZzdddRVFRqRpRlluZ1HywRVPLQ1wHrhns4MzM3YDlUZORPUFxU5Hw/qu8MZNzdmYdMboFwwth8g2iM3sTcFwnpp8RP/taJz8l3cx1St972cvOGrIiKFwWUbA7/cVfxteRgCWwLvDXMRPlAoLIoH7z9aYooVV/6mg2necR4UuS0iTw2xYanMwqkrzs+mJHWuycmQ8DDEggLk9PWyebOEhPaIuxc9BvE4sfX7mKhRElz5ho7bSWzP5aQHneT+HKoQE36HtLF5197bKMEQxNCRg85tBk5mcLUj99nPoxTR"
